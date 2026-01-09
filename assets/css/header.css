@@ -1,0 +1,100 @@
+header {
+    background-color: rgb(128, 255, 0);
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+.logo {
+    width: 150px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.majtas, .djathtas {
+    width: 50%;
+    text-align: center;
+    padding: 5px 20px 20px 20px;
+}
+
+.menu kryesore{
+    padding: 40px;
+}
+
+.Meny-rënëse {
+    position: relative;
+    display: inline-block;
+}
+
+.Meny-rënëse-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Meny-rënëse:hover .Meny-rënëse-content {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.Meny-rënëse-content a {
+    color: #333;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Meny-rënëse-content a:hover {
+    background-color: #f0f0f0;
+}
+
+
+nav input[type="search"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+
+nav .btn {
+    padding: 8px 20px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(+50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
